@@ -1,0 +1,138 @@
+<!-- Cú pháp viết tắt để tạo cấu trúc HTML5: ! hoặc html:5 -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Các thẻ inline  -->
+    <!-- Thẻ inline diện tích sẽ phụ thuộc vào nội dung mà nó đang có, các phần tử nằm trên cùng 1 hàng -->
+    <a href="">Đây là thẻ chuyển hướng trang</a>
+    <a target="_blank" href="https://shopee.vn">Shopee Việt Nam</a>
+
+    <img
+      width="600"
+      height="400"
+      src="https://instandeebinhthanh.com/wp-content/uploads/2024/11/anh-dep-thien-nhien-3-scaled.jpg"
+      alt=""
+    />
+
+    <i>Đây là thẻ in nghiêng</i>
+    <b>Đây là thẻ in đậm</b>
+    <u>Đây là thẻ gạch chân văn bản</u>
+
+    <!-- Các thẻ block -->
+    <!-- Thẻ block diện tích sẽ chiếm 100% chiều dài của trình duyệt -->
+    <h1>Đây là tiêu đề 1</h1>
+    <h2>Đây là tiêu đề 2</h2>
+    <h3>Đây là tiêu đề 3</h3>
+    <h4>Đây là tiêu đề 4</h4>
+    <h5>Đây là tiêu đề 5</h5>
+    <h6>Đây là tiêu đề 6</h6>
+
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda
+      veritatis sint debitis. Ullam pariatur adipisci aliquam placeat vitae,
+      inventore repudiandae corporis numquam, officia a dolore culpa velit
+      facilis, ducimus molestiae!
+    </p>
+
+    <h2>Danh sách khóa học:</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>JavaScript</li>
+    </ul>
+
+    <ol>
+      <li>Python</li>
+      <li>PHP</li>
+      <li>Ruby</li>
+    </ol>
+
+    <hr />
+
+    <div>Đây là thẻ div</div>
+
+    <h2>Table trong HTML</h2>
+    <table border="1" width="100%">
+      <!-- Tiêu đề của bảng -->
+      <thead>
+        <tr>
+          <th>STT</th>
+          <th>Tên sản phẩm</th>
+          <th>Hình ảnh</th>
+          <th>Số lượng</th>
+          <th>Giá</th>
+          <th colspan="2">Thao tác</th>
+        </tr>
+      </thead>
+
+      <!-- Thân bảng (hiển thị dữ liệu) -->
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Dưa hấu</td>
+          <td>
+            <img
+              width="100"
+              src="https://cdn.pixabay.com/photo/2025/10/03/05/57/cat-9869762_1280.jpg"
+              alt=""
+            />
+          </td>
+          <td>100</td>
+          <td>20000</td>
+          <td>
+            <button>Sửa</button>
+          </td>
+          <td>
+            <button>Xóa</button>
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Cam</td>
+          <td>200</td>
+          <td>30000</td>
+          <td>
+            <button>Sửa</button>
+          </td>
+          <td>
+            <button>Xóa</button>
+          </td>
+        </tr>
+      </tbody>
+
+      <!-- Chân bảng -->
+      <tfoot>
+        <th colspan="4">Tổng số</th>
+        <th colspan="2">300</th>
+      </tfoot>
+    </table>
+  </body>
+
+  <h2>Form trong HTML</h2>
+  <form method="post">
+    <input name="username" type="text" />
+    <input name="password" type="password" />
+    <input name="color" type="color" />
+    <input type="date" />
+    <input type="datetime-local" />
+    <input name="gender" type="radio" /> Nam
+    <input name="gender" type="radio" /> Nữ
+    <input name="gender" type="radio" />
+
+    <button>Submit</button>
+  </form>
+
+  <a href=""> Mèo mướp <sup>[8]</sup> </a>
+
+  <fieldset>
+    <legend>Thông tin cư trú</legend>
+    <input type="text" name="" id="" />
+  </fieldset>
+</html>
